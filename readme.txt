@@ -1,0 +1,1 @@
+This portfolio is contains a short personal summary, a photo, link to GitHub, link to LinkedIn, and a link to a separate page containing a resume.
