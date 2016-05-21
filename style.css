@@ -49,6 +49,11 @@
 	margin-left: 195px;
 }
 
+/* -------- Tab Section -------- */
+#main li {
+	list-style-type: none;
+}
+
 /* -------- Resume -------- */
 #resume_head {
 	border-bottom: 1px solid lightgray;
@@ -87,6 +92,9 @@
 	.nested_list li {
 		padding-bottom: 5px;
 	}
+
+/*  This is a pretty simple website, following the instructions pretty close.  I have come to find
+I am not a designer hahaha.  Show me a picture of what you want, and I can build it from that!  */
 
 
 
