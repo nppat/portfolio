@@ -60,7 +60,8 @@ a {
 #main li {
 	list-style-type: none;
 }
-#tab2 a {
+#tab1 a,
+#tab3 a {
 	color: blue;
 }
 /* -------- Resume -------- */
