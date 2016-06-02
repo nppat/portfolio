@@ -9,17 +9,21 @@
 	padding: 10px;
 	font-family: sans-serif;
 }
+a {
+	text-decoration: none;
+}
+
 /* --------  Nav  -------- */
 #nav {
 	padding: 5px;
-	text-align: center;
+	text-align: right;
+	margin-bottom: 10px;
 }
 #nav li {
 	display: inline-block;
 	vertical-align: top;
 	padding: 2px;
 }
-
 /* --------  Header  -------- */
 #header {
 	margin-bottom: 25px;
@@ -50,10 +54,15 @@
 }
 
 /* -------- Tab Section -------- */
+#tab_ul_one {
+		margin-bottom: 20px;
+	}
 #main li {
 	list-style-type: none;
 }
-
+#tab2 a {
+	color: blue;
+}
 /* -------- Resume -------- */
 #resume_head {
 	border-bottom: 1px solid lightgray;
