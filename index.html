@@ -1,71 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8" >
-	<title>Patrick Adamson | Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<script src="jquery_functions.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <title>Patrick Adamson | Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div id="container">
-		<div id="nav">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="resume.html">Resume</a></li>
-			</ul>
-		</div>
-		<div id="header">
-			<div id="header_left">
-				<h1>Patrick Adamson</h1>
-				<h2>Portfolio</h2>
-				<p><a href="mailto:patricksadamson@gmail.com">patricksadamson@gmail.com</a></p>
-				<p>Patrick is a student of many things, from flying airplanes to scuba diving.  
-				Currently, he is refining his coding skills at <a href="http://www.codingdojo.com">Coding Dojo</a>.</p>
-			</div>
-			<img src="img/mullet.jpg" data-alt-src="img/mt2.jpg" alt="Me!">
-		</div>
-		<div id="main">
-			<div id="tabs">
-				<ul>
-					<li><a href="#tab1">Projects</a></li>
-					<li><a href="#tab2">Education</a></li>
-					<li><a href="#tab3">Resume</a></li>
-					<li><a href="#tab4">Links to me</a></li>
-				</ul>
-				<div id="tab1">
-					<p><a href="http://www.patrickadamson.com">This</a> portfolio site.</p>
-					<p><a href="http://www.patrickadamson.com/indexbs.html">This</a> portfolio site in a Bootstrap version.</p>
-					<p>The family business website. <a href="http://www.martinhomeinspection.com">martinhomeinspection.com</a></p>
-				</div>
-				<div id="tab2">
-		    	<h3>Coding Dojo</h3>
-		    	<ul id="tab_ul_one">
-		    		<li>2016-Present</li>
-		    		<li>Frontend Web Development</li>
-		    		<li>HTML5, CSS, jQuery, jQuery UI, Javascript</li>
-		    	</ul>
-		    	<h3>Fort Hays State University</h3>
-		    	<ul>
-		    		<li>Bachelor Of Business Administration, May 2015</li>
-		    		<li>Major: Management Information Systems</li>
-		    		<li>Hays, KS</li>
-		    		<li>GPA: 3.25 on 4.0 scale</li>
-		    	</ul>
-		    	</div>
-				<div id="tab3">
-					<p>Feel free to look at my resume <a href="resume.html">here</a>.</p>
-				</div>
-				<div id="tab4">
-					<ul>
-						<li><a href="https://www.linkedin.com/in/patrick-adamson-b60a4aa3">LinkedIn</a></li>
-						<li><a href="https://github.com/nppat">GitHub</a></li>
-						<li><a href="https://twitter.com/pat_adamson">Twitter</a></li>
+	<div class="container-fluid">
+		<nav class="navbar navbar-inverse">
+		  	<div class="container-fluid">
+		  		<div id="nav">
+					<ul class="nav navbar-nav navbar-right" >
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="resumebs.html">Resume</a></li>
 					</ul>
 				</div>
-			</div>
+		  	</div>
+		</nav>
+		<div class="row">
+		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		  		<div class="container-fluid" id="header">
+<!-- 		  		<div class="col-lg-2">
+		  			</div>
+ -->				<div class="col-xs-12 col-lg-10" id="header_left">
+						<h1>Patrick Adamson</h1>
+						<h2>Portfolio</h2>
+						<p><a href="mailto:patricksadamson@gmail.com">patricksadamson@gmail.com</a></p>
+						<p>Patrick is a student of many things, from flying airplanes to scuba diving.  
+						Currently, he is refining his coding skills at <a href="http://www.codingdojo.com">Coding Dojo</a>.</p>
+					</div>
+					<div class='col-xs-12 col-sm-4 col-md-6 col-lg-2'>
+						<img src="img/mullet.jpg" data-alt-src="img/mt2.jpg" alt="Me!" class="img-responsive img-rounded">
+					</div>
+				</div>
+		  	</div>
+		</div>
+		<div class="row">
+		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		  		<div class="container-fluid" id="main">
+					<div id="tabs">
+						<ul class="nav nav-tabs">
+							<li class="active"><a data-toggle="tab" href="#tab1">Projects</a></li>
+							<li><a data-toggle="tab" href="#tab2">Education</a></li>
+							<li><a data-toggle="tab" href="#tab3">Resume</a></li>
+							<li><a data-toggle="tab" href="#tab4">Links to me</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="tab1">
+								<p>This portfolio site.</p>
+								<p>The family business<a href="http://www.martinhomeinspection.com"> website.</a></p>
+							</div>
+							<div  class="tab-pane fade" id="tab2">
+					    		<h3>Coding Dojo</h3>
+					    		<ul id="tab_ul_one">
+					    			<li>2016-Present</li>
+					    			<li>Frontend Web Development</li>
+					    			<li>HTML5, CSS, jQuery, jQuery UI, Javascript</li>
+					    		</ul>
+					    		<h3>Fort Hays State University</h3>
+					    		<ul>
+					    			<li>Bachelor Of Business Administration, May 2015</li>
+					    			<li>Major: Management Information Systems</li>
+					    			<li>Hays, KS</li>
+					    			<li>GPA: 3.25 on 4.0 scale</li>
+					    		</ul>
+					    	</div>
+							<div  class="tab-pane fade" id="tab3">
+								<p>Feel free to look at my resume <a href="resumebs.html">here</a>.</p>
+							</div>
+							<div  class="tab-pane fade" id="tab4">
+								<ul>
+									<li><a href="https://www.linkedin.com/in/patrick-adamson-b60a4aa3">LinkedIn</a></li>
+									<li><a href="https://github.com/nppat">GitHub</a></li>
+									<li><a href="https://twitter.com/pat_adamson">Twitter</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+		  	</div>
 		</div>
 	</div>
 </body>
